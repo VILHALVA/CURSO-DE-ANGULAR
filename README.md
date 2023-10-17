@@ -2,9 +2,7 @@
 👨‍⚖️ANGULAR É UM FRAMEWORK DE DESENVOLVIMENTO WEB CRIADO PELO GOOGLE, QUE PERMITE A CRIAÇÃO DE APLICAÇÕES WEB ROBUSTAS E DINÂMICAS USANDO JAVASCRIPT OU TYPESCRIPT. ELE FORNECE UMA ESTRUTURA PARA ORGANIZAR O CÓDIGO, GERENCIAR O ESTADO DA APLICAÇÃO E CRIAR COMPONENTES REUTILIZÁVEIS.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=Angular)
-
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://angular.io/docs) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=Angular) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&si=1iAmXfOemX42j5ny)
 
