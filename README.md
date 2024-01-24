@@ -2,16 +2,9 @@
 👨‍⚖️ANGULAR É UM FRAMEWORK DE DESENVOLVIMENTO WEB CRIADO PELO GOOGLE, QUE PERMITE A CRIAÇÃO DE APLICAÇÕES WEB ROBUSTAS E DINÂMICAS USANDO JAVASCRIPT OU TYPESCRIPT. ELE FORNECE UMA ESTRUTURA PARA ORGANIZAR O CÓDIGO, GERENCIAR O ESTADO DA APLICAÇÃO E CRIAR COMPONENTES REUTILIZÁVEIS.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=Angular) 
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://angular.io/docs) 
 [![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-<br>
-
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&si=1iAmXfOemX42j5ny)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
 
 # CONCEITO:
 O Angular é um popular framework de desenvolvimento front-end mantido pelo Google, e é amplamente utilizado para criar aplicativos da web robustos e dinâmicos. Aqui estão alguns conceitos-chave, exemplos de código e explicações:
