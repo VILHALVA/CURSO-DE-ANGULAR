@@ -1,12 +1,9 @@
 # CURSO DE ANGULAR
 👨‍⚖️ANGULAR É UM FRAMEWORK DE DESENVOLVIMENTO WEB CRIADO PELO GOOGLE, QUE PERMITE A CRIAÇÃO DE APLICAÇÕES WEB ROBUSTAS E DINÂMICAS USANDO JAVASCRIPT OU TYPESCRIPT. ELE FORNECE UMA ESTRUTURA PARA ORGANIZAR O CÓDIGO, GERENCIAR O ESTADO DA APLICAÇÃO E CRIAR COMPONENTES REUTILIZÁVEIS.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://angular.io/docs) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&si=1iAmXfOemX42j5ny)
+<img src="FOTO.png" align="center" width="400"> <br>
 
-# CONCEITO:
+## CONCEITO:
 O Angular é um popular framework de desenvolvimento front-end mantido pelo Google, e é amplamente utilizado para criar aplicativos da web robustos e dinâmicos. Aqui estão alguns conceitos-chave, exemplos de código e explicações:
 
 1. **Módulos (Modules)**:
@@ -77,9 +74,8 @@ O Angular é um popular framework de desenvolvimento front-end mantido pelo Goog
 
 Estes são apenas alguns dos conceitos essenciais do Angular. 
 
-# CARACTERISTICAS:
-## Características Positivas:
-
+## CARACTERISTICAS:
+### POSITIVAS:
 1. **Estrutura Modular e Organização**: O Angular promove uma estrutura organizada e modular para o desenvolvimento de aplicativos. Os módulos, componentes e serviços facilitam a organização do código.
 
 2. **Injeção de Dependência**: O sistema de injeção de dependência do Angular torna o código mais modular e reutilizável, facilitando a manutenção e o teste.
@@ -94,8 +90,7 @@ Estes são apenas alguns dos conceitos essenciais do Angular.
 
 7. **Performance**: O Angular oferece mecanismos eficientes para otimização de desempenho, como detecção de mudanças, carregamento preguiçoso de módulos e AOT (Ahead-of-Time) compilation.
 
-## Características Negativas:
-
+### NEGATIVA:
 1. **Curva de Aprendizado**: Angular pode ter uma curva de aprendizado mais íngreme, especialmente para iniciantes, devido à complexidade de seus conceitos.
 
 2. **Verbosidade**: O Angular pode parecer mais verboso em comparação com outros frameworks mais leves, o que pode levar a uma quantidade maior de código.
@@ -144,3 +139,9 @@ Trabalhar com o Angular é relativamente simples, especialmente quando se utiliz
    - O Angular CLI oferece comandos para criar testes e construir o aplicativo para implantação.
 
 Resumindo, o Angular CLI simplifica muito o processo de desenvolvimento Angular, e a maior parte do trabalho acontece dentro da pasta `src/app`. A estrutura organizada, os comandos simplificados e o servidor de desenvolvimento facilitam a criação de aplicativos web dinâmicos com Angular. Além disso, o Angular oferece uma ampla variedade de recursos e bibliotecas para facilitar o desenvolvimento de aplicativos robustos.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "MATHEUS BATTISTI"](https://youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&si=1iAmXfOemX42j5ny)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://angular.io/docs)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT) 
