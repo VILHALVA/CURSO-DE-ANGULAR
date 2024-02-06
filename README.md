@@ -4,75 +4,40 @@
 <img src="FOTO.png" align="center" width="400"> <br>
 
 ## CONCEITO:
-O Angular é um popular framework de desenvolvimento front-end mantido pelo Google, e é amplamente utilizado para criar aplicativos da web robustos e dinâmicos. Aqui estão alguns conceitos-chave, exemplos de código e explicações:
+Angular é um framework de desenvolvimento front-end para a construção de aplicativos da web de página única (SPA - Single Page Applications) e aplicativos da web dinâmicos. Ele é mantido pelo Google e uma comunidade ativa de desenvolvedores. Aqui estão os principais aspectos e conceitos do Angular:
 
-1. **Módulos (Modules)**:
-   - Conceito: Os módulos são os blocos de construção fundamentais de um aplicativo Angular. Eles são usados para organizar e dividir a aplicação em partes funcionais.
-   - Exemplo de código:
-     ```typescript
-     import { NgModule } from '@angular/core';
+1. **Componentes**: Angular é baseado em um padrão de arquitetura de componentes, onde os aplicativos são construídos a partir de componentes reutilizáveis. Cada componente encapsula uma parte da interface do usuário e seu comportamento.
 
-     @NgModule({
-       declarations: [AppComponent, HomeComponent],
-       imports: [RouterModule, HttpClientModule],
-       bootstrap: [AppComponent],
-     })
-     export class AppModule { }
-     ```
-   - Explicação: Neste exemplo, um módulo chamado `AppModule` é criado. Ele declara componentes como `AppComponent` e `HomeComponent`, importa outros módulos, como `RouterModule` e `HttpClientModule`, e define o componente de inicialização como `AppComponent`.
+2. **Data Binding**: Angular oferece data binding bidirecional, o que significa que as alterações feitas no modelo (dados) são refletidas automaticamente na visualização (interface do usuário) e vice-versa. Isso simplifica a manipulação e sincronização de dados entre o modelo e a visualização.
 
-2. **Componentes (Components)**:
-   - Conceito: Os componentes são partes reutilizáveis e autônomas de uma aplicação Angular. Eles consistem em um HTML, uma classe TypeScript e um arquivo de estilo.
-   - Exemplo de código:
-     ```typescript
-     import { Component } from '@angular/core';
+3. **Diretivas**: As diretivas são instruções na forma de atributos, elementos ou classes CSS que fornecem funcionalidades adicionais aos elementos DOM. Angular possui várias diretivas integradas e permite que os desenvolvedores criem suas próprias diretivas personalizadas.
 
-     @Component({
-       selector: 'app-root',
-       templateUrl: 'app.component.html',
-       styleUrls: ['app.component.css']
-     })
-     export class AppComponent {
-       title = 'Meu Aplicativo Angular';
-     }
-     ```
-   - Explicação: Aqui, um componente `AppComponent` é definido. Ele tem um seletor (nome da tag HTML) e associa um template HTML e estilos.
+4. **Serviços**: Os serviços são classes reutilizáveis que encapsulam a lógica de negócios e podem ser injetados em componentes e outros serviços. Eles são usados para compartilhar dados, realizar chamadas de API, manipular eventos e outras tarefas comuns em um aplicativo.
 
-3. **Diretivas (Directives)**:
-   - Conceito: As diretivas são instruções no DOM que dizem ao Angular como modificar ou manipular o DOM.
-   - Exemplo de código:
-     ```html
-     <div *ngIf="mostrarMensagem">Esta é uma mensagem condicional.</div>
-     ```
-   - Explicação: A diretiva `*ngIf` é usada para condicionalmente adicionar ou remover o elemento DOM com base na expressão `mostrarMensagem`.
+5. **Roteamento**: O roteamento no Angular permite a navegação entre diferentes partes do aplicativo, carregando os componentes apropriados e atualizando a URL do navegador. Isso é fundamental para criar aplicativos de página única (SPA) com várias visualizações.
 
-4. **Injeção de Dependência (Dependency Injection)**:
-   - Conceito: O Angular fornece um sistema de injeção de dependência que permite que os componentes obtenham as dependências de que precisam.
-   - Exemplo de código:
-     ```typescript
-     import { Injectable } from '@angular/core';
+6. **Módulos**: Os módulos no Angular são contêineres para organizar os componentes, diretivas, serviços e outros recursos do aplicativo. Eles ajudam a modularizar o aplicativo e a manter uma estrutura limpa e organizada.
 
-     @Injectable()
-     export class DataService {
-       getData() {
-         return 'Dados do serviço';
-       }
-     }
-     ```
-   - Explicação: Aqui, um serviço chamado `DataService` é criado e marcado como injetável. Ele pode ser injetado em componentes para fornecer funcionalidade de busca de dados.
+7. **Injeção de Dependência**: Angular usa injeção de dependência para fornecer componentes e serviços com suas dependências. Isso facilita a criação de aplicativos com código mais modular, testável e fácil de manter.
 
-5. **Roteamento (Routing)**:
-   - Conceito: O roteamento permite a navegação entre diferentes componentes em um aplicativo Angular com URLs amigáveis.
-   - Exemplo de código (configuração de roteamento):
-     ```typescript
-     const routes: Routes = [
-       { path: '', component: HomeComponent },
-       { path: 'about', component: AboutComponent },
-     ];
-     ```
-   - Explicação: Isso configura rotas para as páginas principal e "sobre" do aplicativo.
+8. **CLI (Command Line Interface)**: Angular fornece uma CLI poderosa que simplifica o processo de criação, desenvolvimento, teste e implantação de aplicativos Angular. Ele oferece comandos para gerar componentes, serviços, módulos, testes e muito mais.
 
-Estes são apenas alguns dos conceitos essenciais do Angular. 
+9. **Ecossistema de Ferramentas**: Angular possui um rico ecossistema de ferramentas, bibliotecas e plugins que complementam o framework e facilitam o desenvolvimento de aplicativos. Isso inclui bibliotecas de terceiros, como Angular Material para design de interface do usuário, NgRx para gerenciamento de estado e muito mais.
+
+## SUA HISTÓRIA:
+1. **AngularJS (2010)**: O AngularJS foi lançado pelo Google em 2010. Foi desenvolvido por Misko Hevery e Adam Abrons como uma estrutura para a construção de aplicativos da web de página única (SPAs). AngularJS introduziu conceitos inovadores, como data binding bidirecional e injeção de dependência, simplificando o desenvolvimento de aplicativos da web.
+
+2. **Popularidade do AngularJS**: AngularJS ganhou rapidamente popularidade entre os desenvolvedores devido à sua abordagem intuitiva e eficaz para o desenvolvimento de aplicativos da web. Ele foi amplamente adotado em muitos projetos e empresas em todo o mundo.
+
+3. **AngularJS 2.0 (2014)**: Em 2014, o Google anunciou uma grande atualização para o AngularJS, chamada Angular 2.0. No entanto, Angular 2.0 foi uma reescrita completa da estrutura, com mudanças significativas na arquitetura e na sintaxe em relação à versão anterior.
+
+4. **Angular (2016)**: O Angular 2.0 foi lançado oficialmente como Angular em setembro de 2016, seguido por várias versões subsequentes. O Angular abandonou a nomenclatura "AngularJS" para refletir as diferenças fundamentais entre o Angular e sua versão anterior. Angular introduziu melhorias de desempenho, modularidade e uma arquitetura mais robusta.
+
+5. **Ciclo de Lançamento Regular**: Desde o lançamento do Angular, o Google adotou um ciclo de lançamento regular, com novas versões sendo lançadas a cada seis meses. Isso permitiu que o Angular evoluísse rapidamente, incorporando novos recursos, melhorias de desempenho e correções de bugs de forma consistente.
+
+6. **Adoção e Comunidade Ativa**: Angular ganhou uma ampla adoção na indústria devido ao seu suporte do Google e à sua comunidade ativa de desenvolvedores. Muitas empresas e organizações líderes adotaram o Angular para o desenvolvimento de seus aplicativos da web, contribuindo para o seu crescimento contínuo e sucesso.
+
+7. **Evolução Contínua**: O Angular continuou a evoluir ao longo dos anos, com a introdução de novos recursos e aprimoramentos em cada versão. Algumas das principais atualizações incluem a introdução de Angular Universal para renderização do lado do servidor, Angular CLI para simplificar o processo de desenvolvimento e Angular Ivy como uma nova geração de mecanismo de renderização.
 
 ## CARACTERISTICAS:
 ### POSITIVAS:
@@ -138,10 +103,9 @@ Trabalhar com o Angular é relativamente simples, especialmente quando se utiliz
 **7. Teste e Implantação:**
    - O Angular CLI oferece comandos para criar testes e construir o aplicativo para implantação.
 
-Resumindo, o Angular CLI simplifica muito o processo de desenvolvimento Angular, e a maior parte do trabalho acontece dentro da pasta `src/app`. A estrutura organizada, os comandos simplificados e o servidor de desenvolvimento facilitam a criação de aplicativos web dinâmicos com Angular. Além disso, o Angular oferece uma ampla variedade de recursos e bibliotecas para facilitar o desenvolvimento de aplicativos robustos.
-
 ## SUBSIDIOS:
 - [CURSO CRIADO PELO "MATHEUS BATTISTI"](https://youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&si=1iAmXfOemX42j5ny)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://angular.io/docs)
-- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT) 
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+- [VEJA A SINTAXE](./SINTAXE.md) 
