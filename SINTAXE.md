@@ -1,4 +1,46 @@
 # SINTAXE:
+## CRIANDO PROJETO:
+Criar um projeto Angular é um processo relativamente simples. Aqui está um guia passo a passo para ajudá-lo a começar:
+
+### Passo 1: Instalar o Angular CLI (Command Line Interface)
+Certifique-se de ter o Angular CLI instalado globalmente em sua máquina. Você pode instalar usando o npm (Node Package Manager) através do seguinte comando:
+
+```
+npm install -g @angular/cli
+```
+
+### Passo 2: Criar um novo projeto Angular
+Depois de instalar o Angular CLI, você pode criar um novo projeto Angular executando o seguinte comando no terminal:
+
+```
+ng new nome-do-projeto
+```
+
+Substitua "nome-do-projeto" pelo nome que você deseja dar ao seu projeto.
+
+### Passo 3: Navegar para o diretório do projeto
+Após a criação do projeto, navegue até o diretório do projeto usando o comando `cd`:
+
+```
+cd nome-do-projeto
+```
+
+### Passo 4: Executar o projeto
+Depois de estar no diretório do seu projeto, você pode iniciar o servidor de desenvolvimento executando:
+
+```
+ng serve
+```
+
+Isso iniciará um servidor de desenvolvimento e seu aplicativo estará acessível em `http://localhost:4200/` por padrão.
+
+### Passo 5: Visualizar o projeto
+Abra seu navegador da web e vá para `http://localhost:4200/` para visualizar seu novo aplicativo Angular.
+
+### Passo 6: Começar a desenvolver
+Agora você pode começar a desenvolver seu projeto Angular. O Angular CLI já gerou a estrutura básica do projeto para você. Você pode adicionar componentes, serviços, módulos e muito mais conforme necessário para o seu aplicativo.
+
+## EXEMPLOS DE CÓDIGOS:
 1. **Módulos (Modules)**:
    - Conceito: Os módulos são os blocos de construção fundamentais de um aplicativo Angular. Eles são usados para organizar e dividir a aplicação em partes funcionais.
    - Exemplo de código:
