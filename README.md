@@ -108,5 +108,6 @@ Trabalhar com o Angular é relativamente simples, especialmente quando se utiliz
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://angular.io/docs)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+- [TECNOLOGIA](https://github.com/VILHALVA/CURSO-DE-NODEJS)
 - [VEJA O MANUAL](./MANUAL.md) 
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:ANGULAR)
